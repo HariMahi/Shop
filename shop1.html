@@ -54,7 +54,7 @@ function loadDoc() {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById("product_name").innerHTML =
-      this.name;
+      this.responseText;
     }
   };
   xhttp.open("GET", "data1.json", true);
