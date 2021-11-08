@@ -1,1 +1,53 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<style>
+.card {
+  max-width=100px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: brown;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  background-color: #ffcc00;
+  text-align: center;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  border-radius:12px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Shopping Page</h2>
+
+<div class="card">
+  <img src="Vegetables.jpg" style="width:50%;height:50%">
+  <h1 id="product_name">Product Name : Vegetable</h1>
+ <b> <p class="price" id="product_price">Product Price: Rs.20 </p></b>
+  <b><p id="product_description"></p>Product Description : Vegetables are good for health</b>
+ <b><p id="product_rating" style="color:orange;">Product Rating : 5/5</p></b>
+  <p><button>Add to Cart</button></p>
+ <p><button style="background-color:green;">Buy Now</button></p>
+</div>
+</body>
+</html>
 
