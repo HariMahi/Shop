@@ -48,5 +48,18 @@
   <p><button>Add to Cart</button></p>
  <p><button style="background-color:green;">Buy Now</button></p>
 </div>
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("product_name").innerHTML =
+      this.name;
+    }
+  };
+  xhttp.open("GET", "data1.json", true);
+  xhttp.send();
+}
+</script>
 </body>
 </html>
