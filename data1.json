@@ -1,1 +1,22 @@
-[{"name":"Egg", "desc":"Egg is good for health", "price":"Rs.5", "rating":"4/5", "image":"Eggs.png"}]
+{
+  "data":[
+    {
+      "name":"Krunal", 
+      "age":25, 
+      "city":"Rajkot", 
+      "degree": "BE"
+    },
+    {
+      "name":"Ankit", 
+      "age":23, 
+      "city":"Rajkot", 
+      "degree": "MCA"
+    },
+    {
+      "name":"Nehal", 
+      "age":30, 
+      "city":"Rajkot", 
+      "degree": "BE"
+    }
+  ]
+}
